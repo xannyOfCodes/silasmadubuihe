@@ -1,5 +1,5 @@
-import React from 'react'
-import { assets, services } from '../assets/assets'
+
+import {  services } from '../assets/assets'
 
 const HomeServices = () => {
 

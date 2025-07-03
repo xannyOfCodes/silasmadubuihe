@@ -1,7 +1,6 @@
 
 import { NavLink } from 'react-router-dom'
 import { FaToggleOff } from "react-icons/fa6";
-import { FaToggleOn } from "react-icons/fa6";
 import Sidebar from './Sidebar';
 
 
@@ -22,7 +21,7 @@ const Navbar = () => {
         {/* Theme Toggle buttons */}
         <div className='text-3xl'>
             <FaToggleOff />
-            {/* <FaToggleOn /> */}
+            {/* <FaToggleOn />  import { FaToggleOn } from "react-icons/fa6"; */}
         </div>
     </div>
   )
