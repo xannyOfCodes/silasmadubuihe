@@ -1,8 +1,9 @@
-import React from 'react'
+
 
 const AboutMe = () => {
   return (
-    <div className='p-[1.5rem]'>
+    <div className='p-[1.5rem]
+    lg:w-[80%] lg:mx-auto'>
         <p className='text-xl font-semibold text-zinc-900 py-1 border-b-1 border-zinc-900'>About <span className='font-light'>Me</span></p>
 
         <p className='mt-3 text-base text-zinc-900'>

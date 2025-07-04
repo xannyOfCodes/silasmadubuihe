@@ -6,7 +6,8 @@ import { assets } from '../assets/assets'
 
 const AboutHero = () => {
   return (
-    <div className='p-[1.5rem] mt-20'>
+    <div className='p-[1.5rem] mt-20
+    lg:w-[80%] lg:mx-auto'>
         <div className='w-full h-[12rem] bg-gray-100 relative text-center flex items-center justify-center rounded-lg'>
             <img src={assets.aboutHeroImg} alt="" 
             className='w-[8rem] h-[8rem] rounded-full object-cover mx-auto absolute top-[-4rem] right-0 left-0 border-8 border-white'/>

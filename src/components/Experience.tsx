@@ -1,9 +1,10 @@
-import React from 'react'
+
 import { jobExperiences } from '../assets/assets'
 
 const Experience = () => {
   return (
-    <div className='p-[1.5rem]'>
+    <div className='p-[1.5rem]
+    lg:w-[80%] lg:mx-auto'>
         <p className='text-xl font-semibold text-zinc-900 py-2 '>My <span className='font-light border-b-1 border-zinc-900'>Experiences</span></p>
 
         <div className='mt-3'>

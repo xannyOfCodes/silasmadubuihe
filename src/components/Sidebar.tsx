@@ -24,6 +24,8 @@ const Sidebar = () => {
             <ul className='px-[1rem] py-5 flex flex-col gap-y-5'>
                 <li className='w-full p-[1rem]'><NavLink to="/">Home</NavLink></li>
                 <li className='w-full p-[1rem]'><NavLink to="/about">About</NavLink></li>
+                <li onClick={() => setViewSideBar(false)}
+                className='w-full p-[1rem]'><a href='#contact'>Contact</a></li>
             </ul>
         </div>
         }
