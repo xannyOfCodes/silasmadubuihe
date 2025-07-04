@@ -7,7 +7,8 @@ const HomeServices = () => {
     <div className='p-[1rem] mt-10
     lg:w-[85%] lg:mx-auto'>
 
-            <p className='text-zinc-900 text-xl font-semibold'>My <span className="font-light border-b-1 border-zinc-900">Services</span></p>
+            <p className='text-zinc-900 text-xl font-semibold
+            dark:text-zinc-100'>My <span className="font-light border-b-1 border-zinc-900 dark:border-zinc-100">Services</span></p>
 
         <div className='flex flex-wrap gap-1 mt-5
         lg:flex-nowrap'>

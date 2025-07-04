@@ -3,7 +3,7 @@ import Footer from '../components/Footer'
 
 const RootLayout = () => {
   return (
-    <div>
+    <div className='dark:bg-zinc-900'>
       <Outlet/>
 
       <div><Footer/></div>

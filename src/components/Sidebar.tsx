@@ -11,14 +11,16 @@ const Sidebar = () => {
   return (
     <div className='relative'>
         <div onClick={toggleSideBar}
-        className='text-3xl text-zinc-800'>
+        className='text-3xl text-zinc-800 dark:text-zinc-100'>
             <HiOutlineMenuAlt2 />
         </div>
 
         { viewSidebar && 
-            <div className='fixed w-full h-full top-0 bg-white z-10'>
+            <div className='fixed w-full h-full right-0 left-0 top-0 bg-white z-10
+            dark:bg-zinc-900 dark:text-zinc-100'>
                 <div onClick={toggleSideBar}
-                className='text-3xl mt-[1rem] text-zinc-800'>
+                className='text-3xl mt-[1rem] pl-[0.5rem] text-zinc-800
+                dark:text-zinc-100'>
                     <IoClose />
                 </div>
             <ul className='px-[1rem] py-5 flex flex-col gap-y-5'>

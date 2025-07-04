@@ -3,7 +3,8 @@
 const ContactForm = () => {
   return (
     <div className='mt-30
-    lg:flex lg:justify-between lg:items-center'>
+    lg:flex lg:justify-between lg:items-center
+    dark:text-zinc-100'>
         <div className='p-[1rem]'>
             <p className='text-2xl font-semibold pr-10
             lg:text-6xl'>Let's get in touch</p>
@@ -11,7 +12,7 @@ const ContactForm = () => {
             lg:text-lg'>Don't be afraid to say hello with us!</p>
         </div>
 
-        <div className='bg-white'>
+        <div className=''>
             <p className='p-[1rem]
             lg:text-lg lg:pr-40'>
                 Great we're excited to hear from you and let's start something special together.
@@ -31,9 +32,10 @@ const ContactForm = () => {
                 </div>
                 <div className='mt-10'>
                     <textarea name="" id="" placeholder="Tell us about what you're interested in"
-                     className='border-b-1 py-0 px-3 border-gray-300 outline-0 text-white placeholder:text-white w-full placeholder:font-extralight'></textarea>
+                     className='border-b-1 py-0 px-3 border-gray-300 outline-0 text-white placeholder:text-white w-full placeholder:font-extralight placeholder:text-sm'></textarea>
                 </div>
-                <button className='text-zinc-900 bg-white mt-5 py-2 px-5 text-base'>Send Message</button>
+                <button className='text-zinc-900 bg-white mt-5 py-2 px-5 text-base
+                dark:bg-zinc-600 dark:text-zinc-100'>Send Message</button>
             </form>
             </div>
         </div>

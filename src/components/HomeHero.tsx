@@ -11,15 +11,15 @@ const HomeHero = () => {
     lg:mt-30 lg:w-[85%] mx-auto lg:flex items-center justify-between'>
         <div>
             <p className='text-zinc-900 font-semibold text-xl
-            lg:text-4xl'>
+            lg:text-4xl dark:text-zinc-100'>
                 Hey there! I'm James.
             </p>
             <p className='text-gray-500 text-sm
-            lg:mt-3 lg:text-base'>
+            lg:mt-3 lg:text-base dark:text-gray-400'>
                 Front-End Developer | JavaScript Enthusiast
             </p>
             <p className='mt-3 flex items-center gap-x-3 text-xl text-gray-900
-            lg:text-2xl'>
+            lg:text-2xl dark:text-zinc-100'>
                 <Link to=""><IoLogoWhatsapp /></Link> 
                 <Link to=""><BsInstagram /></Link> 
                 <Link to=""><FaXTwitter /></Link>

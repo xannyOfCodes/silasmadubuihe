@@ -7,7 +7,8 @@ const Skills = () => {
     lg:w-[85%] lg:mx-auto">
 
       <div>
-        <p className="text-xl font-semibold">My <span className="font-light border-b-1 border-zinc-900">Skills</span></p>
+        <p className="text-xl font-semibold
+        dark:text-zinc-100">My <span className="font-light border-b-1 border-zinc-900 dark:border-zinc-100">Skills</span></p>
       </div>
 
 

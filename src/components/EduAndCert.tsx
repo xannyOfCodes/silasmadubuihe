@@ -6,7 +6,8 @@ const EduAndCert = () => {
   return (
     <div className="p-[1.5rem]
     lg:w-[80%] lg:mx-auto">
-        <p className='text-xl font-semibold text-zinc-900 py-2 '><span className="font-light">Education</span> and <span className='font-light border-b-1 border-zinc-900'>Certification</span></p>
+        <p className='text-xl font-semibold text-zinc-900 py-2 
+        dark:text-zinc-100'><span className="font-light">Education</span> and <span className='font-light border-b-1 border-zinc-900 dark:border-zinc-100'>Certification</span></p>
 
         <div className="mt-5 
         lg:flex lg:items-center lg:justify-between">

@@ -6,7 +6,8 @@ const Projects = () => {
   return (
     <div className='p-[1rem] mt-15
     lg:w-[85%] lg:mx-auto'>
-        <div className='font-semibold text-xl text-zinc-900'>My <span className="font-light border-b-1 border-zinc-900">Projects</span></div>
+        <div className='font-semibold text-xl text-zinc-900
+        dark:text-zinc-100'>My <span className="font-light border-b-1 border-zinc-900 dark:border-zinc-100">Projects</span></div>
 
         <div className='mt-5 w-full mx-auto
         lg:flex  lg:gap-5 lg:flex-wrap lg:justify-start'>
