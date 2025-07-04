@@ -4,10 +4,12 @@ import techSackImg from "./stack.png"
 import collabImg from "./collaboration.png"
 import apiImg from "./api.png"
 import optimizationImg from "./optimization.png"
+import aboutHeroImg from "./about-hero.jpg" 
 
 export const assets = {
     heroImg,
-    developerImg
+    developerImg,
+    aboutHeroImg
 };
 
 export const services = [
