@@ -10,7 +10,7 @@ const AboutHero = () => {
     lg:w-[80%] lg:mx-auto'>
         <div className='w-full h-[12rem] bg-gray-100 relative text-center flex items-center justify-center rounded-lg'>
             <img src={assets.aboutHeroImg} alt="" 
-            className='w-[8rem] h-[8rem] rounded-full object-cover mx-auto absolute top-[-4rem] right-0 left-0 border-8 border-white'/>
+            className='w-[8rem] h-[8rem] rounded-full object-cover mx-auto absolute top-[-4rem] right-0 left-0 border-8 border-white dark:border-zinc-900'/>
             <div>
                 <p className='text-lg font-semibold text-zinc-900 mt-10'>Madubuihe Daniel</p>
                 <p className='text-gray-500 text-sm
