@@ -6,12 +6,13 @@ import Sidebar from './Sidebar';
 
 const Navbar = () => {
   return (
-    <div className='flex justify-between items-center p-[1rem]'>
+    <div className='flex justify-between items-center p-[1rem] 
+    lg:w-[80%] lg:mx-auto lg:p-[1.5rem]'>
 
-        <div><Sidebar/></div>
+        <div className='lg:hidden'><Sidebar/></div>
         {/* Nav links */}
-        <div className='hidden'>
-            <ul>
+        <div className='hidden lg:block'>
+            <ul className='flex justify-around items-center gap-5 text-lg'>
                 <li><NavLink to="/">Home</NavLink></li>
                 <li><NavLink to="/about">About</NavLink></li>
                 <li><NavLink to="/contact">Contact</NavLink></li>

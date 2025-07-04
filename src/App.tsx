@@ -3,6 +3,7 @@ import RootLayout from "./layouts/RootLayout"
 import Home from "./pages/Home"
 import PageNotFound from "./components/PageNotFound"
 import Error from "./components/Error"
+import About from "./pages/About"
 
 const App = () => {
 
@@ -10,6 +11,7 @@ const App = () => {
     createRoutesFromElements(
       <Route path="/" element={<RootLayout/>} errorElement={<Error/>}>
         <Route index element={<Home/>}/>
+        <Route path="about" element={<About/>}/>
         <Route path="*" element={<PageNotFound/>}/>
       </Route>
     )

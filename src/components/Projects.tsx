@@ -4,14 +4,17 @@ import { FaLocationDot } from "react-icons/fa6";
 
 const Projects = () => {
   return (
-    <div className='p-[1rem] mt-10'>
-        <div className='font-semibold text-xl text-zinc-900'>My Projects</div>
+    <div className='p-[1rem] mt-15
+    lg:w-[85%] lg:mx-auto'>
+        <div className='font-semibold text-xl text-zinc-900'>My <span className="font-light border-b-1 border-zinc-900">Projects</span></div>
 
-        <div className='mt-5 w-full mx-auto'>
+        <div className='mt-5 w-full mx-auto
+        lg:flex  lg:gap-5 lg:flex-wrap lg:justify-start'>
             {
                 projects.map((project) => {
                     return(
-                        <div className='w-full bg-zinc-200 mx-auto mt-5 rounded-lg'>
+                        <div className='w-full bg-gray-100 mx-auto mt-5 rounded-lg
+                        lg:w-[30%] lg:mx-0'>
                             <img src={project.img} alt="" 
                             className='w-full rounded-t-lg'/>
                             <div className='mt-5 p-[1rem]'>

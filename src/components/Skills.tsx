@@ -3,14 +3,16 @@ import { skills } from "../assets/assets"
 
 const Skills = () => {
   return (
-    <div className="p-[1rem] mt-20">
+    <div className="p-[1rem] mt-20
+    lg:w-[85%] lg:mx-auto">
 
       <div>
         <p className="text-xl font-semibold">My <span className="font-light border-b-1 border-zinc-900">Skills</span></p>
       </div>
 
 
-      <div className="mt-10">
+      <div className="mt-3
+      lg:flex lg:items-center lg:gap-x-5">
       {
         skills.map((skill: any) => {
           return (
