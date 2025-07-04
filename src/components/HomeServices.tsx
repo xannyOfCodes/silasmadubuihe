@@ -12,7 +12,7 @@ const HomeServices = () => {
             {
                 services.map((service:any) => {
                     return(
-                        <div className=' p-[1.5rem] w-full  mx-auto rounded-lg odd:bg-green-200 even:bg-purple-200'>
+                        <div className=' p-[1.5rem] w-full  mx-auto rounded-lg odd:bg-gray-100 even:bg-purple-100'>
                             <p className='text-base font-semibold text-zinc-900'>{service.title}</p>
                             <p className='text-sm text-zinc-500 mt-5'>{service.desc}</p>
                         </div>

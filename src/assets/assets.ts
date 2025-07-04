@@ -1,5 +1,9 @@
 import heroImg from "./hero-img.png"
 import developerImg from "./software-developer.jpg"
+import techSackImg from "./stack.png"
+import collabImg from "./collaboration.png"
+import apiImg from "./api.png"
+import optimizationImg from "./optimization.png"
 
 export const assets = {
     heroImg,
@@ -71,4 +75,43 @@ export const projects = [
         desc: "A fitness tracker for logging workouts, setting goals, and viewing stats.",
         location: "owerri"
     }
+];
+
+ export const skills = [
+    {
+        id: 1,
+        title: "Frameworks & Libraries",
+        skillOne: "React.js",
+        skillTwo: "Next.js",
+        skillThree: "Tailwind CSS",
+        skillFour: "Redux (or Zustand)",
+        img: techSackImg,
+    },
+    {
+        id: 2,
+        title: "Tools & Workflow",
+        skillOne: "Git & GitHub",
+        skillTwo: "VS Code",
+        skillThree: "Chrome DevTools",
+        skillFour: "Vite / Webpack",
+        img: collabImg,
+    },
+    {
+        id: 3,
+        title: "API & Data",
+        skillOne: "RESTful APIs",
+        skillTwo: "JSON",
+        skillThree: "Axios / Fetch",
+        skillFour: "LocalStorage / SessionStorage",
+        img: apiImg,
+    },
+    {
+        id: 4,
+        title: "Optimization",
+        skillOne: "Lazy Loading",
+        skillTwo: "Code Splitting",
+        skillThree: "Lighthouse Testing",
+        skillFour: "SEO Basics",
+        img: optimizationImg,
+    },
 ]

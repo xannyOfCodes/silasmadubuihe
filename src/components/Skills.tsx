@@ -1,9 +1,36 @@
+import { skills } from "../assets/assets"
 
 
 const Skills = () => {
   return (
-    <div>
-      
+    <div className="p-[1rem] mt-20">
+
+      <div>
+        <p className="text-xl font-semibold">My <span className="font-light border-b-1 border-zinc-900">Skills</span></p>
+      </div>
+
+
+      <div className="mt-10">
+      {
+        skills.map((skill: any) => {
+          return (
+            <div className="bg-gray-100 p-[1rem] pb-10 mt-5 rounded-sm">
+              <img src={skill.img} alt="" 
+              className="w-1/6 bg-zinc-200 p-3 rounded-full"/>
+              <div className="mt-20">
+                <p className="font-semibold text-lg">{skill.title}</p>
+                <ul className="mt-2 text-sm list-disc px-3">
+                  <li>{skill.skillOne}</li>
+                  <li>{skill.skillTwo}</li>
+                  <li>{skill.skillThree}</li>
+                  <li>{skill.skillFour}</li>
+                </ul>
+              </div>
+            </div>
+          )
+        })
+      }
+    </div>
     </div>
   )
 }
