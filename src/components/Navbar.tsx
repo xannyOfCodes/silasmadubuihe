@@ -15,7 +15,7 @@ const Navbar = () => {
             <ul className='flex justify-around items-center gap-5 text-lg'>
                 <li><NavLink to="/">Home</NavLink></li>
                 <li><NavLink to="/about">About</NavLink></li>
-                <li><NavLink to="/contact">Contact</NavLink></li>
+                <li><NavLink to={{hash: "#contact"}}>Contact</NavLink></li>
             </ul>
         </div>
 

@@ -2,7 +2,8 @@
 
 const ContactForm = () => {
   return (
-    <div className='mt-30
+    <div id="contact"
+    className='mt-30
     lg:flex lg:justify-between lg:items-center'>
         <div className='p-[1rem]'>
             <p className='text-2xl font-semibold pr-10

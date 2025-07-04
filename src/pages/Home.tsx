@@ -1,4 +1,3 @@
-import Footer from "../components/Footer"
 import HomeHero from "../components/HomeHero"
 import HomeServices from "../components/HomeServices"
 import Navbar from "../components/Navbar"
@@ -16,7 +15,6 @@ const Home = () => {
             <Projects/>
             <Skills/>
         </div>
-        <Footer/>
     </div>
   )
 }
